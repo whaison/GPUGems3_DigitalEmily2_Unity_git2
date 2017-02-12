@@ -1,0 +1,155 @@
+fileFormatVersion: 2
+guid: 70578bcc993743146ba7d4eb14290432
+timeCreated: 1486906262
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Emily_head
+    100004: Eye_Inner_01
+    100006: Eye_Inner_01 1
+    100008: Eye_L_01
+    100010: Eye_Lashes
+    100012: Eye_Outter_01
+    100014: Eye_Outter_01 1
+    100016: Eye_Plica
+    100018: Eye_PupilSizer
+    100020: Eye_R_01
+    100022: Eye_Sizer_A_01
+    100024: Eye_sizer_B_01
+    100026: Eyes_01
+    100028: Eyes_geo_01
+    100030: Flash
+    100032: Flash_Pivot
+    100034: Lightstage_camera_01
+    100036: Lightstage_cameras_01:LSX_CameraPositions:camera01
+    100038: Lightstage_cameras_01:LSX_CameraPositions:camera02
+    100040: Lightstage_cameras_01:LSX_CameraPositions:camera03
+    100042: Lightstage_cameras_01:LSX_CameraPositions:camera04
+    100044: Lightstage_cameras_01:LSX_CameraPositions:camera05
+    100046: Lightstage_cameras_01:LSX_CameraPositions:camera06
+    100048: Lightstage_cameras_01:LSX_CameraPositions:camera07
+    100050: Lightstage_cameras_01:transform1
+    100052: Lightstage_cameras_01:transform2
+    100054: Lightstage_cameras_01:transform3
+    100056: Lightstage_cameras_01:transform4
+    100058: Lightstage_cameras_01:transform5
+    100060: Lightstage_cameras_01:transform6
+    100062: Lightstage_cameras_01:transform7
+    400000: //RootNode
+    400002: Emily_head
+    400004: Eye_Inner_01
+    400006: Eye_Inner_01 1
+    400008: Eye_L_01
+    400010: Eye_Lashes
+    400012: Eye_Outter_01
+    400014: Eye_Outter_01 1
+    400016: Eye_Plica
+    400018: Eye_PupilSizer
+    400020: Eye_R_01
+    400022: Eye_Sizer_A_01
+    400024: Eye_sizer_B_01
+    400026: Eyes_01
+    400028: Eyes_geo_01
+    400030: Flash
+    400032: Flash_Pivot
+    400034: Lightstage_camera_01
+    400036: Lightstage_cameras_01:LSX_CameraPositions:camera01
+    400038: Lightstage_cameras_01:LSX_CameraPositions:camera02
+    400040: Lightstage_cameras_01:LSX_CameraPositions:camera03
+    400042: Lightstage_cameras_01:LSX_CameraPositions:camera04
+    400044: Lightstage_cameras_01:LSX_CameraPositions:camera05
+    400046: Lightstage_cameras_01:LSX_CameraPositions:camera06
+    400048: Lightstage_cameras_01:LSX_CameraPositions:camera07
+    400050: Lightstage_cameras_01:transform1
+    400052: Lightstage_cameras_01:transform2
+    400054: Lightstage_cameras_01:transform3
+    400056: Lightstage_cameras_01:transform4
+    400058: Lightstage_cameras_01:transform5
+    400060: Lightstage_cameras_01:transform6
+    400062: Lightstage_cameras_01:transform7
+    2300000: Emily_head
+    2300002: Eye_Inner_01 1
+    2300004: Eye_Lashes
+    2300006: Eye_Outter_01 1
+    2300008: Eye_Plica
+    3300000: Emily_head
+    3300002: Eye_Inner_01 1
+    3300004: Eye_Lashes
+    3300006: Eye_Outter_01 1
+    3300008: Eye_Plica
+    4300000: Emily_head
+    4300002: Eye_Plica
+    4300004: Eye_Lashes
+    4300006: Eye_Outter_01
+    4300008: Eye_Inner_01
+    4300010: Eye_Outter_01
+    4300012: Eye_Inner_01
+    9500000: //RootNode
+    13700000: Eye_Inner_01
+    13700002: Eye_Outter_01
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
