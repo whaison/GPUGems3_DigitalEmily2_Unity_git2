@@ -9,13 +9,13 @@
 	DigitalEmily2_OSL__singleScatterTexture____00_single_scatter_exr("OSL__singleScatterTexture____00_single_scatter (RGB)", 2D) = "white" {}
 	DigitalEmily2_OSL__sdiffuseUnlitTexture____00_diffuse_unlit_exr("OSL__sdiffuseUnlitTexture____00 (RGB)", 2D) = "white" {}
 	DigitalEmily2_OSL__scatterRadius___("OSL__scatterRadius_0.5", Range(0,1)) = 0.5
-		DigitalEmily2_OSL__scatterColor("OSL____Color", Color) = (0.482, 0.169, 0.109)
-		DigitalEmily2_OSL__ior("OSL____ior", Range(0,2)) = 1.33
-		DigitalEmily2_OSL__phaseFunction("OSL___phaseFunction", Range(0,1)) = 0.8
+		DigitalEmily2_OSL__scatterColor____("OSL____Color", Color) = (0.482, 0.169, 0.109)
+		DigitalEmily2_OSL__ior____("OSL____ior", Range(0,2)) = 1.33
+		DigitalEmily2_OSL__phaseFunction____("OSL___phaseFunction", Range(0,1)) = 0.8
 		/////////DigitalEmily2_OSL
 	}
 		/////////DigitalEmily2_OSL/////////////////////////////////////////////////////////////////////////////////
-		float phongExponent(float glossiness) {
+	float phongExponent(float glossiness) {
 		return (1 / pow(1 - glossiness, 3.5) - 1);
 	}
 
@@ -76,29 +76,34 @@
 	sampler2D DigitalEmily2_OSL__singleScatterTexture____00_single_scatter_exr;
 	sampler2D DigitalEmily2_OSL__sdiffuseUnlitTexture____00_diffuse_unlit_exr;
 
-
+	/////////DigitalEmily2_OSL/////////////////////////////////////////////////////////////////////////////////
+	float phongExponent(float glossiness) {
+		return (1 / pow(1 - glossiness, 3.5) - 1);
+	}
+	/////////DigitalEmily2_OSL/////////////////////////////////////////////////////////////////////////////////
 	struct Input {
 		float2 uv_MainTex;
 		////////////////////////////////////
-		float scatterRadius = 0.5,
-			float3 scatterColor = color(0.482, 0.169, 0.109),
-			float ior = 1.33,
-			float phaseFunction = 0.8
-			///////////////////////////////
+		float scatterRadius = 0.5
+		float3 scatterColor = color(0.482, 0.169, 0.109)
+		float ior = 1.33
+		float phaseFunction = 0.8
+		///////////////////////////////
 	};
 
 	half _Glossiness;
 	half _Metallic;
 	fixed4 _Color;
-	////////////////////////////////////
-	float DigitalEmily2_OSL__scatterRadius___
-		float3 DigitalEmily2_OSL__scatterColor
-		float DigitalEmily2_OSL__ior = 1.33,
-		float DigitalEmily2_OSL__phaseFunction = 0.8
-		///////////////////////////////
+	//////////////////////////////DigitalEmily2_OSL///////////////
+	float DigitalEmily2_OSL__scatterRadius___;
+	float3 DigitalEmily2_OSL__scatterColor____;
+	float DigitalEmily2_OSL__ior____ ;
+	float DigitalEmily2_OSL__phaseFunction____ ;
+	/////////////////////////////DigitalEmily2_OSL///////////
 
 
-		void surf(Input IN, inout SurfaceOutputStandard o) {
+	void surf(Input IN, inout SurfaceOutputStandard o) 
+	{
 		// Albedo comes from a texture tinted by color
 		fixed4 c = tex2D(_MainTex, IN.uv_MainTex) * _Color;
 		o.Albedo = c.rgb;
